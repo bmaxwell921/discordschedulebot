@@ -52,5 +52,5 @@ func newMessage(session *discordgo.Session, message *discordgo.MessageCreate) {
 		return
 	}
 
-	session.ChannelMessageSend(message.ChannelID, "I'm reading you loud and clear")
+	session.ChannelMessageSend(message.ChannelID, "I'm reading you loud and clear from compute engine")
 }
